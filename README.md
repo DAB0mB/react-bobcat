@@ -4,7 +4,7 @@ Bobcat is a library for testing navigation flows in React. Its API is heavily in
 
 ### Usage
 
-Here's a rough code snippets that demonstrates how Bobcat should be used:
+Here's a rough code snippet that demonstrates how Bobcat should be used:
 
 ```jsx
 import { useState } from 'react';
@@ -75,7 +75,7 @@ or Yarn:
 
     $ yarn add react-bobcat
 
-*Be sure to install React@16.8 or above as well*.
+*Be sure to install React@16.8 or higher*.
 
 ### License
 
