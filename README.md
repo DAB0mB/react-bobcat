@@ -10,10 +10,11 @@ Here's a rough code snippet that demonstrates how Bobcat should be used:
 import { useState } from 'react';
 import { useDelayedEffect, useBobcat } from 'react-bobcat';
 
+import MyButton from './components/MyButton';
 import { useSignOut } from './services/auth';
 
 export default () => {
-  const { scope, flow, trap, pass } = useBobcat();
+  const { scope, flow, trap, pass, assert } = useBobcat();
 
   scope('MyApp', () => {
     const signOut = useSignOut();
@@ -75,7 +76,7 @@ or Yarn:
 
     $ yarn add react-bobcat
 
-*Be sure to install React@16.8 or higher*.
+*Be sure to install React@16.8 or greater*.
 
 ### License
 
