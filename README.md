@@ -76,7 +76,7 @@ or Yarn:
 
     $ yarn add react-bobcat
 
-*Be sure to install React@16.8 or greater*.
+**Be sure to install React@16.8 or greater*.
 
 ### License
 

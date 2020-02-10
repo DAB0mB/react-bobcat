@@ -11,7 +11,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "prepublishOnly": "yarn build",
-    "lint": "eslint --ignore-pattern '!src/**/*.ts' --fix"
+    "lint": "eslint --fix"
   },
   "peerDependencies": {
     "react": "16.8"
@@ -38,9 +38,8 @@
     }
   },
   "lint-staged": {
-    "*.ts": [
-      "yarn lint",
-      "git add"
+    "*.js": [
+      "yarn lint"
     ]
   },
   "keywords": [
