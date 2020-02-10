@@ -4,7 +4,7 @@ Bobcat is a library for testing navigation flows in React. Its API is heavily in
 
 <p align="center">
   <br>
-  <img src="https://user-images.githubusercontent.com/7648874/74192733-c5f49a00-4c5e-11ea-8bb2-7837b7a91609.gif">
+  <img src="https://user-images.githubusercontent.com/7648874/74193813-b9714100-4c60-11ea-8ed3-a2fdc328dcc5.gif">
 </p>
 
 ### Usage
