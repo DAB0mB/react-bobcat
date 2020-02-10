@@ -2,6 +2,11 @@
 
 Bobcat is a library for testing navigation flows in React. Its API is heavily inspired by classic testing frameworks like [Mocha](https://mochajs.org/) and [Jest](https://jestjs.io/); it has a similar `describe()` / `it()` type of syntax.
 
+<p align="center">
+  <br>
+  <img src="https://user-images.githubusercontent.com/7648874/74192733-c5f49a00-4c5e-11ea-8bb2-7837b7a91609.gif">
+</p>
+
 ### Usage
 
 Here's a rough code snippet that demonstrates how Bobcat should be used:
